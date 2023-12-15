@@ -257,7 +257,7 @@ nav a:active{
       document.body.appendChild(renderer.domElement);
     
       const loader = new OBJLoader();
-    loader.load('https://github.com/NTONovators/NTONovators.github.io/blob/main/tophat.obj', function (object) {
+    loader.load('https://github.com/NTONovators/NTONovators.github.io/blob/main/hat.obj', function (object) {
       const material = new THREE.MeshStandardMaterial({ color: 0xffffff });
       object.traverse(function (child) {
         if (child instanceof THREE.Mesh) {
