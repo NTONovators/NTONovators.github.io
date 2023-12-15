@@ -1,0 +1,307 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTO.Novators Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <style>
+       body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #489fb5;
+        color: #16697a;
+	margin: 0;
+      }
+      .container {
+        max-width: auto;
+        max-height: auto;
+        padding: 0px;
+        text-align: center;
+      }
+      .header {
+        max-height: 200px;
+        max-width: auto;
+        background-color: #82c0cc;
+        color: #ede7e3;
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .headerimg {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        margin: auto;
+      }
+      .main-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: auto;
+        padding-left: auto;
+        flex: 1;
+      }      
+        .video-section {
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+      }
+        .video-title {
+        color: #ede7e3;
+        }
+      .video,
+      .description {
+        flex: 1;
+        margin: 0 10px;
+      }
+      h2{
+        color: #ede7e3;
+      } 
+      .subtitle {
+        margin-left: 20%;
+        margin-right: 20%;
+      }     
+      .text-block h2 {
+          color: #ede7e3;
+          text-align: center;
+      }
+
+      .text-block {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 5%;
+	padding-right: 5%;
+        text-align: justify;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .text-content {
+        order: 1;
+      }
+    
+      .left-image {
+        border-radius: 20px;
+        width: 50%;
+        height: auto;
+        padding-left: auto;
+        padding-right: 5%;
+        order: 0;
+      }
+
+      .right-image {
+        border-radius: 20px;
+        width: 50%;
+        height: auto;
+        padding-left: 5%;
+        padding-right: auto;
+        order: 1;
+      }
+      .par1{
+          margin-right:80px;
+      }
+      
+      .model-container {
+      max-width: auto;
+      max-height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+	    nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background: #82c0cc;
+	}
+	nav a{
+    position: relative;
+    color: #ede7e3;
+    text-decoration: none;
+    padding: 8px 25px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    display: inline-block;
+	}
+	nav a:hover,
+	section#n1:hover~nav a[href="#n1"],
+	section#n2:hover~nav a[href="#n2"],
+	section#n3:hover~nav a[href="#n3"],
+	section#n4:hover~nav a[href="#n4"],
+	section#n5:hover~nav a[href="#n5"]
+	{
+    background: #489fb5;
+    color:#ffa62b;
+}
+nav a:active{
+    background:#489fb5;
+}
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #16697a;
+    color: #ede7e3;
+    padding: 10px 0;
+    bottom: 0px;
+    max-width: 100%;
+    }
+
+    .footer a {
+      color: #ede7e3;
+      text-decoration: none;
+      margin-left: 10px;
+      }
+
+    .footer a:hover {
+      text-decoration: underline;
+      }
+    
+    .par1 {
+      margin-right: center;
+      }
+    </style>
+  </head>
+  <body>
+  <section id="n1">
+    <div class="main-content">
+      <div class="container">
+        <div class="text-content">
+        <h2>Что такое цифровое моделирование одежды?</h2>
+        <p class="subtitle"> Цифровое моделирование – это проектирование, демонстрация и испытание свойств одежды в виртуальной среде. 
+		<br> Бодисканер создает виртуальную 3D-копию человека, по которой создаются цифровые трафареты. 
+		<br>Материал для одежды получает все свойства и «сшивается» в виртуальной среде с соблюдением технологии производства одежды.
+		<br>Бодисканер – это индивидуальное устройство для сканирования параметров человека. </p>
+      </div>
+       <div class="video-section">
+       <div class="video">
+        <iframe width="100%" height="315" src="https://youtu.be/4E-2REQylJM?feature=shared" frameborder="0" allowfullscreen></iframe>
+      </div>
+       <div class="description">
+            <h2 class ="video-title"> Цифровое моделирование - будущее индустрии моды</h2>
+        <p>Почему цифровое моделирование такая важная и интересная тема?</p>
+      </div>
+    </div>
+  </section>
+  <section id="n2">
+    <div class="text-block">
+      <div class="text-content">
+        <h2>Зачем нужно цифровое моделирование одежды?</h2>
+        <p> Сейчас цифровые технологии при моделировании позволяют определить качество посадки, 
+		<br> удобство эксплуатации и конечный внешний вид, не создавая физический образец модели. 
+		<br> Такой способ делает доступным массовое производство продукции по индивидуальным заказам, 
+		<br> что оказывает большое влияние на онлайн-шоппинг и всю индустрию моды.</p>
+      </div>
+      <img src="https://raw.githubusercontent.com/NTONovators/NTONovators.github.io/master/image1.png" alt="Image 1" class="left-image">
+    </div>
+  </section>
+  <section id="n3">
+    <div class="text-block">
+      <div class="text-content">
+        <h2>Чем это полезно?</h2>
+        <p>Цифровые технологии позволяют определить качество посадки, удобство эксплуатации и конечный внешний вид, не создавая физический образец модели. 
+          <br>Такой способ делает доступным массовое производство продукции по индивидуальным заказам, что оказывает большое влияние на онлайн-шоппинг и всю индустрию моды.</p>
+      </div>
+      <img src="https://raw.githubusercontent.com/NTONovators/NTONovators.github.io/master/image2.png" alt="Image 2" class="right-image">
+    </div>
+  </section>
+  <section id="n4">
+    <div class="text-block">
+      <div class="text-content">
+        <h2>Виды технологий производства.</h2>
+        <p> Для получения заготовок необходимо создать фигуру человека, задать параметры материала, сконструировать форму изделия и соединений между деталями. 
+		<br> Такая технология не требует знаний конструирования одежды и значительно сокращает время на создание развёрток.
+		<br> Вторая технология-это метод примерок. Изначально в программе для 3D моделирования создаются заготовки, после фигуру человека нужно загрузить в 3D-сканер. 
+		<br> Затем добавляем свойства и вид материала, формируем порядок соединения деталей одежды и видим на экране виртуальную модель, желаемой вещи.
+		<br> Третья технология, существует также нейросетевая отрисовка одежды, она заключается в анализе нейросетю большого количества данных, 
+		<br> выделения из них характеристика стиля, учитывая предпочтения и вкусы покупателей.</p>
+      </div>
+      <img src="https://raw.githubusercontent.com/NTONovators/NTONovators.github.io/master/image3.png" alt="Image 3" class="left-image">
+    </div>
+  </section>
+  <section id="n5">
+    <div class="text-block">
+      <div class="text-content">
+        <h2>Изучение цифрового моделирования.</h2>
+        <p>Если вы начнёте заниматься цифровым моделированием одежды вы будите работать в 3D редакторах, 
+		<br> это даёт навык создания любых трёхмерных объектов, развивает логику и пространственное мышление. 
+		<br> Моделирование одежды помогает научиться творчески мыслить, развить усидчивость и терпение,
+		<br> готовность экспериментировать с текстурами, стилями и фасонами.</p>
+      </div>
+      <img src="https://raw.githubusercontent.com/NTONovators/NTONovators.github.io/master/image4.png" alt="Image 3" class="left-image">
+    </div>
+  </section>
+      </div>
+    </div>
+  <nav>
+    <a href="#n1">Что это такое</a>
+    <a href="#n2">Зачем это</a>
+    <a href="#n3">Польза</a>
+    <a href="#n4">Виды</a>
+    <a href="#n5">Изучение</a>
+  </nav>
+  </head>
+  <body>
+    <script type="module">
+      import * as THREE from 'three';
+      import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
+      
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+      const renderer = new THREE.WebGLRenderer();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.body.appendChild(renderer.domElement);
+    
+      const loader = new OBJLoader();
+    loader.load('https://NTONovators.github.io/NTONovators.github.io/hat.obj', function (object) {
+      const material = new THREE.MeshStandardMaterial({ color: 0xffffff });
+      object.traverse(function (child) {
+        if (child instanceof THREE.Mesh) {
+          child.material = material;
+        }
+      });
+	object.position.set(1, -80, 1);
+      scene.add(object);
+    });
+
+    camera.position.z = 800;
+
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+    scene.add(ambientLight);
+
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+    directionalLight.position.set(5, 5, 5);
+    scene.add(directionalLight);
+    function animate() {
+    requestAnimationFrame(animate);
+    
+    scene.children.forEach(object => {
+      if (object instanceof THREE.Object3D) {
+        object.rotation.y += 0.01; 
+      }
+    });
+
+    renderer.render(scene, camera);
+  }
+
+  animate();
+
+  </script>
+     </div>
+
+    </script>
+        <div class="footer">
+            <p class="par1">&copy; 2023 NOVATORS – ALL RIGHTS RESERVED.</p>
+        </div>
+  </body>
+</html>
